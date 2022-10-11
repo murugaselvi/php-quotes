@@ -44,7 +44,7 @@ objects:
       sourceStrategy:
         from:
           kind: ImageStreamTag
-          name: php:7.2
+          name: php:7.1
           namespace: openshift
       type: Source
     successfulBuildsHistoryLimit: 5
